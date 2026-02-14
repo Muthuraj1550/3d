@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <ui_settings>
+    <left_panel collapsed="false" locked="false" password="" />
+  </ui_settings>
+  <groups>
+    <group id="GRP_1771038620973" name="Group 1" op="sub" />
+  </groups>
+  <objects>
+    <object uuid="f9abb732-8936-42b6-a587-603382b77d3b" name="Heart_607" type="heart" gID="GRP_1771038620973">
+      <color>16711816</color>
+      <pos x="0" y="0" z="0" />
+      <rot x="1.5707963267948966" y="-0.0013350696214005553" z="0.0029976056587163913" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"size":25}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":"=Box_690.dw/2"}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="768ebb7a-0e97-4e2a-a9bb-2f2500d226f9" name="Text_977" type="text" gID="">
+      <color>16777215</color>
+      <pos x="1.232903115188373" y="3.0721375550330485" z="7.073275176602376" />
+      <rot x="-1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Priya","size":"10","height":"2"}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"height":null,"text":null,"size":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>raleway</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":-4.138581304984115}}</bend>
+    </object>
+    <object uuid="3ae868a1-41ec-4dfc-b7fa-8de73f6f498a" name="Box_690" type="box" gID="">
+      <color>3718648</color>
+      <pos x="-271.6587434795131" y="0" z="0" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"w":50,"h":"5","d":50}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"h":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="b3cafde1-bac1-42cb-8d7e-018c4b22cca2" name="Cylinder_856" type="cylinder" gID="GRP_1771038620973">
+      <color>3718648</color>
+      <pos x="-15.028176139891146" y="0" z="-18.79868309149471" />
+      <rot x="0" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"r":"1","h":60}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"r":null}}</formulas>
+      <visible>false</visible>
+      <fontKey>helvetiker</fontKey>
+    </object>
+    <object uuid="c88a173d-9f84-46b4-9050-9a21ce1a58c4" name="Text_960" type="text" gID="">
+      <color>16777215</color>
+      <pos x="0" y="1.2006595664477366" z="-7.880366835900473" />
+      <rot x="-1.5707963267948966" y="0" z="0" />
+      <sca x="1" y="1" z="1" />
+      <uniformScale>false</uniformScale>
+      <offset x="0" y="0" z="0" />
+      <params>{"text":"Muthu","size":"10","height":5}</params>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"size":null,"text":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <visible>true</visible>
+      <fontKey>raleway</fontKey>
+      <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
+    </object>
+  </objects>
+  <pinned>
+    <pin id="234ce6d4-4ec9-42ba-81d9-6488f73c7e52-size-text" objUUID="234ce6d4-4ec9-42ba-81d9-6488f73c7e52" type="size" axis="text" label="text" />
+    <pin id="234ce6d4-4ec9-42ba-81d9-6488f73c7e52-size-size" objUUID="234ce6d4-4ec9-42ba-81d9-6488f73c7e52" type="size" axis="size" label="size" />
+    <pin id="2b0878c4-6e1e-4b1c-a16d-b16692a46a14-size-r" objUUID="2b0878c4-6e1e-4b1c-a16d-b16692a46a14" type="size" axis="r" label="HOLE SIZE" />
+    <pin id="b5dfabdd-7be1-4cdd-a2ef-570f19b64606-size-w" objUUID="b5dfabdd-7be1-4cdd-a2ef-570f19b64606" type="size" axis="w" label="HEART SIZE" />
+    <pin id="532dd294-e1df-4879-bb42-7a5aace68e37-size-h" objUUID="532dd294-e1df-4879-bb42-7a5aace68e37" type="size" axis="h" label="TEXT THICK" />
+    <pin id="768ebb7a-0e97-4e2a-a9bb-2f2500d226f9-size-text" objUUID="768ebb7a-0e97-4e2a-a9bb-2f2500d226f9" type="size" axis="text" label="TEXT" />
+    <pin id="768ebb7a-0e97-4e2a-a9bb-2f2500d226f9-size-size" objUUID="768ebb7a-0e97-4e2a-a9bb-2f2500d226f9" type="size" axis="size" label="TEXT SIZE" />
+    <pin id="768ebb7a-0e97-4e2a-a9bb-2f2500d226f9-size-height" objUUID="768ebb7a-0e97-4e2a-a9bb-2f2500d226f9" type="size" axis="height" label="TEXT HEIGHT" />
+    <pin id="3ae868a1-41ec-4dfc-b7fa-8de73f6f498a-size-w" objUUID="3ae868a1-41ec-4dfc-b7fa-8de73f6f498a" type="size" axis="w" label="HEART SIZE" />
+    <pin id="b3cafde1-bac1-42cb-8d7e-018c4b22cca2-size-r" objUUID="b3cafde1-bac1-42cb-8d7e-018c4b22cca2" type="size" axis="r" label="HOLE RADIUS" />
+    <pin id="c88a173d-9f84-46b4-9050-9a21ce1a58c4-size-text" objUUID="c88a173d-9f84-46b4-9050-9a21ce1a58c4" type="size" axis="text" label="text" />
+    <pin id="c88a173d-9f84-46b4-9050-9a21ce1a58c4-size-size" objUUID="c88a173d-9f84-46b4-9050-9a21ce1a58c4" type="size" axis="size" label="size" />
+    <pin id="c88a173d-9f84-46b4-9050-9a21ce1a58c4-size-height" objUUID="c88a173d-9f84-46b4-9050-9a21ce1a58c4" type="size" axis="height" label="height" />
+  </pinned>
+</project>
