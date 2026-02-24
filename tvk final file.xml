@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <ui_settings>
-    <left_panel collapsed="true" locked="false" password="" />
+    <left_panel collapsed="false" locked="false" password="" />
     <object_tracker enabled="false" />
   </ui_settings>
   <groups>
@@ -15,7 +15,7 @@
       <uniformScale>false</uniformScale>
       <offset x="0" y="0" z="-1.7243305883321902" />
       <params>{"text":"TVK","size":"8","height":"1"}</params>
-      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null}}</formulas>
+      <formulas>{"pos":{"x":null,"y":null,"z":null},"rot":{"x":null,"y":null,"z":null},"sca":{"x":null,"y":null,"z":null},"size":{"text":null,"size":null,"height":null},"bend":{"bendAngle":null,"centerX":null,"centerY":null,"centerZ":null},"font":null}</formulas>
       <visible>true</visible>
       <fontKey>yellowtail</fontKey>
       <bend>{"bendAngle":0,"bendAxis":"y","center":{"x":0,"y":0,"z":0}}</bend>
@@ -40,6 +40,7 @@
     <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-text" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="text" label="NAME" groupId="" />
     <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-size" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="size" label="size" groupId="" />
     <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-size-height" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="size" axis="height" label="Thicknes" groupId="" />
+    <pin id="b677b5ab-cf8c-4208-8970-f8273f10b83f-font" objUUID="b677b5ab-cf8c-4208-8970-f8273f10b83f" type="font" axis="fontKey" label="Font" groupId="" />
   </pinned>
   <trackedObjects>
   </trackedObjects>
